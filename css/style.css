@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {padding:0; margin:0; transition: transform .3s;}
+a {text-decoration:none; color:#333; font-family: 'Noto Sans KR', sans-serif;}
+ul,ol,li {list-style: none;}
+body {font-size: 16px; color:#333; font-family: 'Noto Sans KR', sans-serif; }
+html{
+  /* 드래그 방지 */
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+
+/* 1.상단 GNB */
+header {
+  width: 1280px;
+  height: 300px;
+  background-color: #012B53;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div {
+  color: #fff;
+}
+header div:nth-child(1) {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* 1.상단 GNB */
+
+
+/* 2.article */
+#article {
+  width: 1280px;
+  height: 400px;
+  background-color: #F8F9FB;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#article > div:nth-child(1) {
+  width: 400px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+#article > div:nth-child(2) {
+  width: 400px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+#article > div > span:nth-child(1) {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+#article > div > span:nth-child(3) {
+  display: inline-block;
+  font-size: 12px;
+  color: gray;
+  margin-left: 5px;
+  width: 150px;
+}
+#article input {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+#login {
+  width: 190px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 20px;
+  margin-right: 23px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+#login:hover {
+  width: 220px;
+}
+/* 2.article */
+
+
+/* -------- subpage --------- */
+/* 1.상단 GNB */
+nav {
+  width: 1280px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 180px;
+}
+nav div:nth-child(2) {
+  display: flex;
+  /* width: 500px;
+  justify-content: space-between;
+  background-color: blue; */
+}
+#navText {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#logout {
+  text-decoration: underline;
+  font-size: 14px;
+}
+/* 1.상단 GNB */
+
+/* 2.상단 GNB */
+#nav {
+  background-color: #012B53;
+  height: 70px;
+}
+#nav > div {
+  width: 1280px;
+  height: 70px;
+  margin: 0 auto;
+}
+#nav > div > div {
+  color: #fff;
+  line-height: 70px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* 2.상단 GNB */
+
+/* 3.상단 GNB */
+#nav2 {
+  width: 1280px;
+  height: 80px;
+  line-height: 100px;
+  margin: 0 auto;
+}
+#nav2 div {
+  margin-left: 30px;
+  font-weight: bold;
+}
+/* 3.상단 GNB */
+
+/* 4.article */
+#art3 {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: rgb(248, 244, 244); */
+}
+table {
+  width: 100%;
+}
+thead {
+  width: 100%;
+  height: 35px;
+  background-color: #0ABB87;
+  color: #fff;
+}
+tbody {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: #F8F9FB;
+  font-size: 14px;
+  transition: 0.5s ease-in-out;
+}
+tbody span {
+  color: red;
+}
+tbody:hover {
+  background-color: #dddddd;
+}
+/* 4.article */
+#total {
+  width: 1280px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+/* 5.footer */
+#footer {
+  background-color: #F8F9FB;
+  margin-top: 80px;
+  border-top: 1px solid #d1d1d1;
+}
+#footer div {
+  width: 1280px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 5.footer */
+
+
+#aaa {
+  pointer-events : none;
+}
+
+
+
+
+
+
+
+
+
+
